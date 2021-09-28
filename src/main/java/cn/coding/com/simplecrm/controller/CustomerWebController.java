@@ -93,7 +93,7 @@ public class CustomerWebController {
         try {
             json = new ObjectMapper().writeValueAsString(jsonMap);
         } catch (JsonProcessingException e) {
-            e.printStackTrace();;
+            e.printStackTrace();
         }
         return json;
     }
